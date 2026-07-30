@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import Accordion from '../components/Accordion.jsx'
-import img from '../assets/images/braintraining/mind.svg'
+import img from '../assets/images/braintraining/mind.jpg'
 
 export default function BrainHealth() {
   return (

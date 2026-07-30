@@ -1,7 +1,7 @@
 import React from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
-import studyImg from '../assets/images/hero/study.svg'
+import studyImg from '../assets/images/hero/study.jpg'
 
 export default function About() {
   return (

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import Accordion from '../components/Accordion.jsx'
-import img from '../assets/images/puzzles/puzzle.svg'
+import img from '../assets/images/puzzles/puzzle.jpg'
 
 const puzzles = [
   {

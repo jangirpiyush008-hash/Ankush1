@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import Accordion from '../components/Accordion.jsx'
-import communityImg from '../assets/images/community/gathering.svg'
+import communityImg from '../assets/images/community/gathering.jpg'
 
 const clubs = [
   {

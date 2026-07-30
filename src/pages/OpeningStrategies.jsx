@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import Accordion from '../components/Accordion.jsx'
-import img from '../assets/images/openings/pieces.svg'
+import img from '../assets/images/openings/pieces.jpg'
 
 export default function OpeningStrategies() {
   return (

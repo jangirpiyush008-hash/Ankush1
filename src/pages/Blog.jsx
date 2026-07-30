@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SEO from '../components/SEO.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import { articles } from '../data/articles.js'
-import journalImg from '../assets/images/blog/journal.svg'
+import journalImg from '../assets/images/blog/journal.jpg'
 
 export default function Blog() {
   const [openId, setOpenId] = useState(null)
