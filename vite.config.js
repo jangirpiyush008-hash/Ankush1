@@ -9,6 +9,9 @@ export default defineConfig({
     cssCodeSplit: true,
     sourcemap: false
   },
+  ssr: {
+    noExternal: ['react-helmet-async']
+  },
   server: {
     port: 5173
   }

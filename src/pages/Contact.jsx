@@ -4,7 +4,23 @@ import PageHeader from '../components/PageHeader.jsx'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
-  const [sent, setSent] = useState(false)
+
+  const buildMailto = () => {
+    const subject = encodeURIComponent(form.subject || 'Letter to Senior Chess Academy')
+    const bodyLines = [
+      `From: ${form.name || '[your name]'}`,
+      `Reply-to: ${form.email || '[your email]'}`,
+      '',
+      form.message || ''
+    ]
+    const body = encodeURIComponent(bodyLines.join('\n'))
+    return `mailto:seniorchessacademy@gmail.com?subject=${subject}&body=${body}`
+  }
+
+  const onSubmit = (e) => {
+    e.preventDefault()
+    window.location.href = buildMailto()
+  }
 
   return (
     <>
@@ -15,16 +31,17 @@ export default function Contact() {
       />
       <PageHeader
         eyebrow="Contact"
-        title="We reply to every letter."
-        lead="If you write to us, a real person will read it. If it deserves a written response — most do — you will receive one within a week."
+        title="Write to the editor."
+        lead="Every letter is read by the editor. If it deserves a written response — most do — you will receive one."
       />
       <section className="container-editorial py-16 grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-6">
-          <form
-            onSubmit={(e) => { e.preventDefault(); setSent(true) }}
-            className="grid gap-5"
-            aria-label="Contact form"
-          >
+          <form onSubmit={onSubmit} className="grid gap-5" aria-label="Contact form">
+            <p className="text-sm text-graphite border-l-2 border-gold pl-4 py-2 bg-marble/40 rounded-r">
+              This form opens your email application with the message pre-filled and addressed to us. You can also email
+              us directly at{' '}
+              <a href="mailto:seniorchessacademy@gmail.com" className="link-underline text-ink">seniorchessacademy@gmail.com</a>.
+            </p>
             <div>
               <label className="block text-sm font-medium mb-2" htmlFor="name">Your name</label>
               <input
@@ -34,7 +51,7 @@ export default function Contact() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-2" htmlFor="email">Email address</label>
+              <label className="block text-sm font-medium mb-2" htmlFor="email">Your email</label>
               <input
                 id="email" name="email" type="email" required value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -58,12 +75,12 @@ export default function Contact() {
               />
             </div>
             <div className="flex items-center gap-4">
-              <button type="submit" className="btn-primary">Send letter</button>
-              {sent && <span className="text-sm text-walnutDark">Thank you. The editor will read your letter this week.</span>}
+              <button type="submit" className="btn-primary">Open in email app</button>
             </div>
             <p className="text-xs text-graphite">
-              This form does not process purchases or health data. We store your message on our email server only for the
-              purpose of replying. See our privacy policy for details.
+              We do not process purchases or health data on this site. When you email us, we store your message on our
+              email server only for the purpose of replying. See our{' '}
+              <a href="/legal/privacy" className="link-underline">privacy policy</a> for details.
             </p>
           </form>
         </div>
@@ -89,13 +106,13 @@ export default function Contact() {
           <div className="card-editorial">
             <div className="eyebrow mb-3">What we reply to</div>
             <ul className="space-y-2 text-graphite text-sm">
-              <li>· Reader letters (always)</li>
-              <li>· Club-profile submissions (always)</li>
-              <li>· Article pitches (always, within one week)</li>
-              <li>· Corrections (immediately)</li>
-              <li>· Sponsorship enquiries (with disclosure requirements)</li>
-              <li>· Press enquiries (within two business days)</li>
+              <li>· Reader letters and questions about articles</li>
+              <li>· Corrections</li>
+              <li>· Article pitches from prospective contributors</li>
+              <li>· Chess-club or community-programme enquiries</li>
+              <li>· Press enquiries</li>
             </ul>
+            <p className="text-xs text-graphite mt-4">We do not respond to unsolicited commercial pitches.</p>
           </div>
         </aside>
       </section>

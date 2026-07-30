@@ -51,6 +51,7 @@
       "name": "Senior Chess Academy",
       "url": "https://seniorchessacademy.com",
       "logo": "https://seniorchessacademy.com/logo.svg",
+      "description": "An independent educational publication about chess for adults 50 and above.",
       "email": "seniorchessacademy@gmail.com",
       "telephone": "+1-614-428-7619",
       "address": {
@@ -61,7 +62,14 @@
         "postalCode": "43215",
         "addressCountry": "US"
       },
-      "sameAs": []
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "seniorchessacademy@gmail.com",
+        "telephone": "+1-614-428-7619",
+        "areaServed": "US",
+        "availableLanguage": ["English"]
+      }
     }
     </script>
   </head>
@@ -69,10 +77,46 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <noscript>
-      <div style="padding:24px;font-family:Georgia,serif;color:#0F0F0E;background:#F6F1E7">
-        <h1>Senior Chess Academy</h1>
-        <p>Welcome. This site is fully readable without JavaScript. Every article, guide, and legal page is included in the static HTML for each route.</p>
-        <p>Contact: seniorchessacademy@gmail.com · (614) 428-7619 · 390 Maple Grove Ln, Columbus, OH 43215</p>
+      <div style="max-width:760px;margin:0 auto;padding:32px 24px;font-family:Georgia,serif;color:#0F0F0E;background:#F6F1E7;line-height:1.7">
+        <h1 style="font-size:32px;margin:0 0 12px">Senior Chess Academy</h1>
+        <p style="margin:0 0 12px"><em>An independent educational publication about chess for adults 50 and above.</em></p>
+        <p>
+          Senior Chess Academy is a small editorial publication that writes long-form articles about chess strategy,
+          endgame technique, positional play, tournament preparation, and the classic grandmasters. Every article is
+          written and reviewed by the editors before publication. We do not publish AI-generated filler content, we do
+          not sell products, and we do not offer medical advice.
+        </p>
+        <h2 style="font-size:20px;margin:24px 0 8px">Reading rooms</h2>
+        <ul>
+          <li><a href="/opening-strategies">Opening Strategies</a> — solid, low-theory openings for adult study.</li>
+          <li><a href="/endgame-techniques">Endgame Techniques</a> — king &amp; pawn, rook endings, and the fundamentals.</li>
+          <li><a href="/chess-for-brain-health">Chess &amp; Brain Health</a> — a careful reading of the cognitive research.</li>
+          <li><a href="/classic-grandmasters">Classic Grandmasters</a> — Capablanca, Karpov, Smyslov, Petrosian.</li>
+          <li><a href="/chess-puzzles">Chess Puzzles</a> — daily tactics with detailed solutions.</li>
+          <li><a href="/tournament-guides">Tournament Guides</a> — etiquette, pacing, preparation.</li>
+        </ul>
+        <h2 style="font-size:20px;margin:24px 0 8px">Publication</h2>
+        <ul>
+          <li><a href="/about">About Senior Chess Academy</a> — editorial standards and ownership.</li>
+          <li><a href="/blog">The Journal</a> — long-form articles.</li>
+          <li><a href="/community">Community</a> — guidance for adult chess clubs.</li>
+          <li><a href="/contact">Contact</a> — write to the editor.</li>
+        </ul>
+        <h2 style="font-size:20px;margin:24px 0 8px">Legal</h2>
+        <ul>
+          <li><a href="/legal/privacy">Privacy Policy</a></li>
+          <li><a href="/legal/terms">Terms of Use</a></li>
+          <li><a href="/legal/refund">Refund Policy</a></li>
+        </ul>
+        <p style="margin-top:24px">
+          Contact: <a href="mailto:seniorchessacademy@gmail.com">seniorchessacademy@gmail.com</a> ·
+          <a href="tel:+16144287619">(614) 428-7619</a> ·
+          390 Maple Grove Ln, Columbus, OH 43215, USA.
+        </p>
+        <p style="margin-top:12px;font-size:14px;color:#6B4423">
+          This site is best viewed with JavaScript enabled. When JavaScript is available, the full editorial site loads
+          in place of this summary.
+        </p>
       </div>
     </noscript>
   </body>

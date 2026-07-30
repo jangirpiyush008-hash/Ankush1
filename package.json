@@ -8,9 +8,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && (react-snap || echo 'react-snap skipped — serving SPA with route rewrites')",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node prerender.mjs",
     "build:spa": "vite build",
-    "build:prerender": "vite build && react-snap",
+    "prerender": "node prerender.mjs",
     "preview": "vite preview",
     "start": "node server.js"
   },
@@ -28,30 +28,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
-    "react-snap": "^1.23.0",
     "tailwindcss": "^3.4.6",
     "vite": "^5.3.4"
-  },
-  "reactSnap": {
-    "source": "dist",
-    "include": [
-      "/",
-      "/about",
-      "/blog",
-      "/community",
-      "/contact",
-      "/opening-strategies",
-      "/endgame-techniques",
-      "/chess-for-brain-health",
-      "/classic-grandmasters",
-      "/chess-puzzles",
-      "/tournament-guides",
-      "/legal/privacy",
-      "/legal/terms",
-      "/legal/refund",
-      "/404"
-    ],
-    "inlineCss": true,
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   }
 }

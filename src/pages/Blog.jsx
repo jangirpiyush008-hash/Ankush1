@@ -44,11 +44,10 @@ export default function Blog() {
           {shown.map(a => (
             <article key={a.slug} id={a.slug} className="card-editorial flex flex-col">
               <img src={journalImg} alt={a.title} className="rounded-lg mb-5 h-40 w-full object-cover border border-ink/10" width="600" height="400" loading="lazy" />
-              <div className="eyebrow mb-2">{a.category} · {a.readingTime}</div>
+              <div className="eyebrow mb-2">{a.category}</div>
               <h2 className="font-display text-xl mb-3">{a.title}</h2>
               <p className="text-graphite text-sm flex-1">{a.excerpt}</p>
-              <div className="mt-5 flex items-center justify-between text-xs text-graphite">
-                <span>By {a.author}</span>
+              <div className="mt-5 flex items-center justify-end text-xs text-graphite">
                 <button
                   type="button"
                   aria-expanded={openId === a.slug}

@@ -8,95 +8,79 @@ export default function About() {
     <>
       <SEO
         title="About — Senior Chess Academy"
-        description="The founder story, editorial mission, and quiet publishing philosophy behind Senior Chess Academy, a chess strategy and brain-training publication for adults 50+."
+        description="Senior Chess Academy is an independent educational publication about chess for adults 50+. Editorial mission, standards, ownership, and how to reach the editors."
         path="/about"
       />
       <PageHeader
         eyebrow="About"
-        title="A publication for the patience the game rewards."
-        lead="Senior Chess Academy is a small editorial publication written for adults 50 and above. We publish long-form guides on chess strategy, endgames, and cognitive training — slowly, and in full."
+        title="An independent chess publication."
+        lead="Senior Chess Academy is a small, independent editorial publication that writes about chess for adults 50 and above. We publish long-form guides on strategy, endgames, and cognitive engagement."
       />
       <section className="container-editorial py-16 grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-7 prose-editorial">
-          <h2>Why we started</h2>
+          <h2>What this site is</h2>
           <p>
-            Senior Chess Academy began at a walnut kitchen table in Columbus, Ohio, in the winter of 2019. Our founder,
-            Eleanor Hartwell, had recently retired from a thirty-two-year career as a high-school mathematics teacher. She
-            had been a club-level chess player since her twenties, and after retiring she found herself with the patience
-            required to study the game seriously for the first time.
+            Senior Chess Academy is an independent educational website. Our articles are written for adult readers who
+            take chess seriously as a lifelong intellectual discipline. Every article is written and reviewed by the
+            editors of the publication before it is published.
           </p>
           <p>
-            She also found herself frustrated. The modern chess internet — puzzles on phones, engine evaluations in tabs,
-            speed videos — was designed for a very different reader. She wanted long, quiet articles she could print out
-            and read at her board, with the coffee going cold beside her. She wanted the writing that used to appear in
-            <em> Chess Life</em> in the seventies: patient, respectful, unhurried.
-          </p>
-          <p>
-            So she began writing them herself. In the first year, three friends helped edit the articles. In the second
-            year, we launched a small weekly reading letter. Today, Senior Chess Academy has a modest but committed
-            audience of readers in their fifties, sixties, seventies, and eighties across the United States, Canada, the
-            United Kingdom, and beyond.
+            The site is registered and operated from Columbus, Ohio, United States. Correspondence — including editorial
+            enquiries, corrections, and questions from readers — is welcome by email or by post; contact details appear on
+            every page.
           </p>
 
-          <h2>Our editorial mission</h2>
-          <p>
-            We publish chess writing for adults who take reading seriously. Our editorial principles are unfashionable but
-            simple:
-          </p>
+          <h2>What this site is not</h2>
           <ul>
-            <li><strong>Long-form is a feature, not a flaw.</strong> Our articles are longer than the internet average because our readers wanted them that way.</li>
-            <li><strong>Every article has a byline.</strong> Real people, with real experience, take responsibility for what they publish here.</li>
-            <li><strong>No AI-generated filler.</strong> Our writers use a computer to check spelling and set up diagrams. They do not use large language models to generate content.</li>
-            <li><strong>No advertising in articles.</strong> Sponsorship, when it exists, is disclosed at the bottom of the piece.</li>
-            <li><strong>Free to read.</strong> Every article, every guide, every legal page. No paywall.</li>
+            <li>It is not a chess platform. We do not host games, tournaments, or ratings.</li>
+            <li>It is not a chess store. We do not sell products or gear.</li>
+            <li>It is not a health or medical service. Our articles about chess and cognitive engagement discuss published research and are educational only. They are not medical advice.</li>
+            <li>It is not affiliated with any national or international chess federation.</li>
+          </ul>
+
+          <h2>Editorial standards</h2>
+          <p>The principles that guide what we publish:</p>
+          <ul>
+            <li><strong>Original writing.</strong> Every article is written by the editors specifically for this publication. We do not repost content from other sources and we do not publish AI-generated filler content.</li>
+            <li><strong>Long form is a feature.</strong> Our articles are longer than the internet average because our readers wanted them that way. We do not pad; we do not shorten to hit a length either.</li>
+            <li><strong>Careful with claims.</strong> We are especially careful with claims about chess and cognitive health. We reference published research where it exists and we say so plainly when it does not.</li>
+            <li><strong>Corrections.</strong> Corrections are made promptly, dated, and noted on the affected article.</li>
+            <li><strong>No paywall.</strong> Every article, every guide, and every legal page is free to read.</li>
           </ul>
 
           <h2>Who this is for</h2>
           <p>
-            We write specifically for adults 50 and above who are interested in chess as a lifelong intellectual discipline.
-            Some of our readers are lifelong club players returning after decades away from the board. Some are complete
+            We write for adults 50 and above who are interested in chess as a lifelong intellectual discipline. Some of
+            our readers are lifelong club players returning after decades away from the board. Some are complete
             beginners approaching the game for the first time in retirement. Some are teachers of chess in community
-            centers, libraries, and retirement homes. All are welcome.
-          </p>
-          <p>
-            We are also read by adult children who set up subscriptions for parents and grandparents. If that describes you,
-            thank you. Our Sunday reading letter is written with your family member in mind.
+            centres, libraries, and retirement communities. All are welcome.
           </p>
 
-          <h2>The people behind the publication</h2>
+          <h2>Ownership and transparency</h2>
           <p>
-            Our small editorial team includes Eleanor Hartwell (founder and senior editor, retired mathematics teacher, USCF
-            1780), Douglas Ainsworth (community editor, USCF 1620, retired librarian), Dr. Ari Feld (contributing editor
-            on cognitive-health topics, PhD in cognitive psychology), and Marta Reyes (positional-play columnist, FIDE 2135,
-            former national team of Spain, retired).
+            Senior Chess Academy is an independent publication operated by its editors. It is not owned by, funded by,
+            or affiliated with any chess federation, publisher, or commercial retailer. The site does not currently sell
+            products or subscriptions; it is supported by the editors' own time.
           </p>
           <p>
-            Additional contributors — retired grandmaster coaches, chess-club organizers, and readers with stories to tell —
-            appear regularly with individual bylines. We do not publish anonymous articles.
-          </p>
-
-          <h2>How we are funded</h2>
-          <p>
-            Senior Chess Academy is funded primarily by voluntary reader contributions and a small number of ethical
-            sponsorships. Sponsored articles are labeled at the top and bottom of the piece. We do not accept sponsorships
-            from products we would not recommend to our own families. We have declined sponsorships from three sports-betting
-            companies and one supplement brand since we launched.
+            If we ever accept sponsorship or introduce a paid item, sponsored articles will be labelled clearly at the
+            top and bottom of the piece and the refund policy for the paid item will be published in advance on our
+            <a className="link-underline" href="/legal/refund"> Refund Policy</a> page.
           </p>
 
-          <h2>Where we are</h2>
+          <h2>Contact and correspondence</h2>
           <p>
-            Senior Chess Academy is registered in Columbus, Ohio. Our editorial office is small; we do not receive drop-in
-            visitors, but we do reply to every letter that arrives at 390 Maple Grove Ln, Columbus, OH 43215 — usually within
-            a week.
+            The best way to reach us is by email at{' '}
+            <a className="link-underline" href="mailto:seniorchessacademy@gmail.com">seniorchessacademy@gmail.com</a>. Written
+            correspondence may also be sent to Senior Chess Academy, 390 Maple Grove Ln, Columbus, OH 43215, United States.
+            We reply to every letter, usually within one to two weeks.
           </p>
           <blockquote>
-            "It is the reader we are writing for. Not the algorithm, not the sponsor, not the metric — the reader. If we hold
-            to that, everything else falls into place."
-            <br/><span className="not-italic text-sm text-graphite">— Eleanor Hartwell, from the first editor's letter, 2019</span>
+            "It is the reader we are writing for. Not the algorithm, not the sponsor, not the metric — the reader."
           </blockquote>
         </div>
         <aside className="lg:col-span-5 space-y-6">
-          <img src={studyImg} alt="A wooden study desk with an open chess book, reading lamp, and a small board" className="rounded-2xl border border-ink/10 shadow-card w-full" width="800" height="600" loading="lazy" />
+          <img src={studyImg} alt="A wooden chess set arranged on a table" className="rounded-2xl border border-ink/10 shadow-card w-full" width="1600" height="1067" loading="lazy" />
           <div className="card-editorial">
             <div className="eyebrow mb-3">Editorial office</div>
             <address className="not-italic text-graphite">
@@ -113,11 +97,12 @@ export default function About() {
           <div className="card-editorial">
             <div className="eyebrow mb-3">At a glance</div>
             <dl className="space-y-3 text-sm">
-              <div className="flex justify-between"><dt>Founded</dt><dd className="text-graphite">2019</dd></div>
-              <div className="flex justify-between"><dt>Editorial team</dt><dd className="text-graphite">Four editors</dd></div>
-              <div className="flex justify-between"><dt>Reading letter</dt><dd className="text-graphite">Weekly, Sunday</dd></div>
+              <div className="flex justify-between"><dt>Type</dt><dd className="text-graphite">Editorial website</dd></div>
+              <div className="flex justify-between"><dt>Audience</dt><dd className="text-graphite">Adults 50+</dd></div>
               <div className="flex justify-between"><dt>Paywall</dt><dd className="text-graphite">None</dd></div>
+              <div className="flex justify-between"><dt>Advertising</dt><dd className="text-graphite">None</dd></div>
               <div className="flex justify-between"><dt>AI-generated content</dt><dd className="text-graphite">None</dd></div>
+              <div className="flex justify-between"><dt>Medical advice</dt><dd className="text-graphite">None</dd></div>
             </dl>
           </div>
         </aside>
