@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Chess puzzle diagram with a knight fork">
+  <rect width="600" height="400" fill="#EFE8D8"/>
+  <g transform="translate(180 40)">
+    <rect x="-8" y="-8" width="256" height="256" fill="#4A2E17"/>
+    <g>
+      <rect x="0" y="0" width="30" height="30" fill="#F6F1E7"/><rect x="30" y="0" width="30" height="30" fill="#3A2510"/><rect x="60" y="0" width="30" height="30" fill="#F6F1E7"/><rect x="90" y="0" width="30" height="30" fill="#3A2510"/><rect x="120" y="0" width="30" height="30" fill="#F6F1E7"/><rect x="150" y="0" width="30" height="30" fill="#3A2510"/><rect x="180" y="0" width="30" height="30" fill="#F6F1E7"/><rect x="210" y="0" width="30" height="30" fill="#3A2510"/>
+      <rect x="0" y="30" width="30" height="30" fill="#3A2510"/><rect x="30" y="30" width="30" height="30" fill="#F6F1E7"/><rect x="60" y="30" width="30" height="30" fill="#3A2510"/><rect x="90" y="30" width="30" height="30" fill="#F6F1E7"/><rect x="120" y="30" width="30" height="30" fill="#3A2510"/><rect x="150" y="30" width="30" height="30" fill="#F6F1E7"/><rect x="180" y="30" width="30" height="30" fill="#3A2510"/><rect x="210" y="30" width="30" height="30" fill="#F6F1E7"/>
+      <rect x="0" y="60" width="30" height="30" fill="#F6F1E7"/><rect x="30" y="60" width="30" height="30" fill="#3A2510"/><rect x="60" y="60" width="30" height="30" fill="#F6F1E7"/><rect x="90" y="60" width="30" height="30" fill="#3A2510"/><rect x="120" y="60" width="30" height="30" fill="#F6F1E7"/><rect x="150" y="60" width="30" height="30" fill="#3A2510"/><rect x="180" y="60" width="30" height="30" fill="#F6F1E7"/><rect x="210" y="60" width="30" height="30" fill="#3A2510"/>
+      <rect x="0" y="90" width="30" height="30" fill="#3A2510"/><rect x="30" y="90" width="30" height="30" fill="#F6F1E7"/><rect x="60" y="90" width="30" height="30" fill="#3A2510"/><rect x="90" y="90" width="30" height="30" fill="#F6F1E7"/><rect x="120" y="90" width="30" height="30" fill="#3A2510"/><rect x="150" y="90" width="30" height="30" fill="#F6F1E7"/><rect x="180" y="90" width="30" height="30" fill="#3A2510"/><rect x="210" y="90" width="30" height="30" fill="#F6F1E7"/>
+      <rect x="0" y="120" width="30" height="30" fill="#F6F1E7"/><rect x="30" y="120" width="30" height="30" fill="#3A2510"/><rect x="60" y="120" width="30" height="30" fill="#F6F1E7"/><rect x="90" y="120" width="30" height="30" fill="#3A2510"/><rect x="120" y="120" width="30" height="30" fill="#F6F1E7"/><rect x="150" y="120" width="30" height="30" fill="#3A2510"/><rect x="180" y="120" width="30" height="30" fill="#F6F1E7"/><rect x="210" y="120" width="30" height="30" fill="#3A2510"/>
+      <rect x="0" y="150" width="30" height="30" fill="#3A2510"/><rect x="30" y="150" width="30" height="30" fill="#F6F1E7"/><rect x="60" y="150" width="30" height="30" fill="#3A2510"/><rect x="90" y="150" width="30" height="30" fill="#F6F1E7"/><rect x="120" y="150" width="30" height="30" fill="#3A2510"/><rect x="150" y="150" width="30" height="30" fill="#F6F1E7"/><rect x="180" y="150" width="30" height="30" fill="#3A2510"/><rect x="210" y="150" width="30" height="30" fill="#F6F1E7"/>
+      <rect x="0" y="180" width="30" height="30" fill="#F6F1E7"/><rect x="30" y="180" width="30" height="30" fill="#3A2510"/><rect x="60" y="180" width="30" height="30" fill="#F6F1E7"/><rect x="90" y="180" width="30" height="30" fill="#3A2510"/><rect x="120" y="180" width="30" height="30" fill="#F6F1E7"/><rect x="150" y="180" width="30" height="30" fill="#3A2510"/><rect x="180" y="180" width="30" height="30" fill="#F6F1E7"/><rect x="210" y="180" width="30" height="30" fill="#3A2510"/>
+      <rect x="0" y="210" width="30" height="30" fill="#3A2510"/><rect x="30" y="210" width="30" height="30" fill="#F6F1E7"/><rect x="60" y="210" width="30" height="30" fill="#3A2510"/><rect x="90" y="210" width="30" height="30" fill="#F6F1E7"/><rect x="120" y="210" width="30" height="30" fill="#3A2510"/><rect x="150" y="210" width="30" height="30" fill="#F6F1E7"/><rect x="180" y="210" width="30" height="30" fill="#3A2510"/><rect x="210" y="210" width="30" height="30" fill="#F6F1E7"/>
+    </g>
+    <g font-family="Georgia, serif" font-size="24" text-anchor="middle">
+      <text x="15" y="22" fill="#0F0F0E">♚</text>
+      <text x="105" y="112" fill="#F6F1E7">♞</text>
+      <text x="195" y="52" fill="#0F0F0E">♛</text>
+      <text x="45" y="232" fill="#F6F1E7">♔</text>
+    </g>
+    <g fill="none" stroke="#B8935A" stroke-width="2" stroke-dasharray="4 4">
+      <line x1="105" y1="112" x2="15" y2="22"/>
+      <line x1="105" y1="112" x2="195" y2="52"/>
+    </g>
+  </g>
+  <text x="300" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#0F0F0E" letter-spacing="4" opacity="0.7">DAILY TACTICS · WHITE TO PLAY</text>
+</svg>

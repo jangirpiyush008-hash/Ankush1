@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://seniorchessacademy.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://seniorchessacademy.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seniorchessacademy.com/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://seniorchessacademy.com/community</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seniorchessacademy.com/contact</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://seniorchessacademy.com/opening-strategies</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/endgame-techniques</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/chess-for-brain-health</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/classic-grandmasters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/chess-puzzles</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/tournament-guides</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://seniorchessacademy.com/legal/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://seniorchessacademy.com/legal/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://seniorchessacademy.com/legal/refund</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

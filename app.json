@@ -1,0 +1,18 @@
+{
+  "name": "Senior Chess Academy",
+  "description": "A calm, editorial chess publication for adults 50+. Long-form guides on strategy, endgames, brain training, and classic grandmasters.",
+  "repository": "https://github.com/senior-chess-academy/site",
+  "keywords": ["chess", "seniors", "brain-training", "editorial", "react", "vite", "express"],
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "stack": "heroku-22",
+  "formation": {
+    "web": { "quantity": 1, "size": "basic" }
+  }
+}
